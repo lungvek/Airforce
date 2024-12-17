@@ -43,16 +43,16 @@ public class playerMovement : MonoBehaviour
             pos.y = Camera.main.orthographicSize - shipBoundaryRadius;
         }
         if (pos.y - shipBoundaryRadius < - Camera.main.orthographicSize) {
-            pos.y = Camera.main.orthographicSize + shipBoundaryRadius;
+            pos.y = - Camera.main.orthographicSize + shipBoundaryRadius;
         }
 
         float screenRatio = (float)Screen.width / (float)Screen.height;
-        float widthOrtho = Camera.main.orthographicSize * screenRatio;
+        float widthOrtho = Camera.main.orthographicSize *  screenRatio;
 
-        if (pos.x + shipBoundaryRadius > Camera.main.orthographicSize) {
+        if (pos.x + shipBoundaryRadius > widthOrtho) {
             pos.x = widthOrtho - shipBoundaryRadius;
         }
-        if (pos.x - shipBoundaryRadius < - Camera.main.orthographicSize) {
+        if (pos.x - shipBoundaryRadius < - widthOrtho) {
             pos.x = - widthOrtho + shipBoundaryRadius;
         }
 
