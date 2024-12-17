@@ -590,10 +590,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1643585896}
   - component: {fileID: 1643585901}
-  - component: {fileID: 1643585900}
   - component: {fileID: 1643585899}
   - component: {fileID: 1643585898}
-  - component: {fileID: 1643585897}
   m_Layer: 0
   m_Name: PixelArtSpaceShip
   m_TagString: Untagged
@@ -611,23 +609,11 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1025693753}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1643585897
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1643585895}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 077577c6eeb607649af3c6e31ef6ca0d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1643585898
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -637,7 +623,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1643585895}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 077577c6eeb607649af3c6e31ef6ca0d, type: 3}
+  m_Script: {fileID: 11500000, guid: d0e3e7c581490344a980c842c2f39d2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!50 &1643585899
@@ -667,18 +653,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &1643585900
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1643585895}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c0a13c40e9fa8804cb89a0ce699b8cca, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!212 &1643585901
 SpriteRenderer:
   m_ObjectHideFlags: 0
