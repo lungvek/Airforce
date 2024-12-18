@@ -58,7 +58,7 @@ public class playerMovement : MonoBehaviour
 
         //Update our position
         transform.position = pos;
-
+        // Testing only. Jenney OwO krongly daisuki.
 
     }
 }
