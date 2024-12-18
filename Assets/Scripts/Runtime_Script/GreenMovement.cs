@@ -59,6 +59,7 @@ public class GreenMovement : MonoBehaviour
         //Update our position
         transform.position = pos;
         // Testing only. Jenney OwO krongly daisuki.
+        // Enjoying this thing but also idk what i am doing.
 
     }
 }
