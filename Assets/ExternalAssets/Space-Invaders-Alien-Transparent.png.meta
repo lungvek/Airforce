@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: c9633d3e6ca6e924cbd935d09dc5cbcf
+guid: b0bda0f6da9d29d43b8d7c74b599eb01
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2208703988740019828
-    second: Bullet_0
+      213: 6900624962480398997
+    second: Space-Invaders-Alien-Transparent_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Bullet_0
+      name: Space-Invaders-Alien-Transparent_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 120
-        height: 348
+        width: 1057
+        height: 769
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 47656d65394e6ae10800000000000000
-      internalID: 2208703988740019828
+      spriteID: 59266d0a7d1f3cf50800000000000000
+      internalID: 6900624962480398997
       vertices: []
       indices: 
       edges: []
@@ -147,8 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Bullet_0: 2208703988740019828
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

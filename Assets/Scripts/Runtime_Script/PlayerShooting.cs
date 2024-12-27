@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class PlayerShooting : MonoBehaviour
 {
+    public Vector3 bulletOffset = new Vector3(0, 0f, 0);
     public GameObject bulletPrefab;
     float fire1Delay = 0.2f;
     // float fire2Delay = 5f;
@@ -23,8 +24,9 @@ public class PlayerShooting : MonoBehaviour
         if (Input.GetButton(inputNameFireX_1) && cooldownTimer1 <= 0) {
             cooldownTimer1 = fire1Delay;
 
+            Vector3 offset = transform.rotation * bulletOffset;
             //Clone bullet at ship position and its rotation        
-            Instantiate (bulletPrefab, transform.position, transform.rotation);
+            Instantiate (bulletPrefab, transform.position + offset, transform.rotation);
         }
 
        
