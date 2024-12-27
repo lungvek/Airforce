@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Space-Invaders-Alien-Transparent_0: 6900624962480398997
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

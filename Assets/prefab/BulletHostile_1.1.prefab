@@ -13,8 +13,8 @@ GameObject:
   - component: {fileID: 3813377971281739460}
   - component: {fileID: 5860314163499486994}
   - component: {fileID: 3619936126971780980}
-  m_Layer: 8
-  m_Name: Bullet
+  m_Layer: 16
+  m_Name: BulletHostile_1.1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -80,7 +80,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 2208703988740019828, guid: c9633d3e6ca6e924cbd935d09dc5cbcf, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0.10559503, b: 0.103773475, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -129,6 +129,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d5c7e615f607eb458baa0f9d3b46296, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxSpeed: 10
 --- !u!114 &3619936126971780980
 MonoBehaviour:
   m_ObjectHideFlags: 0
