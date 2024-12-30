@@ -797,7 +797,34 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ww2_planes_0: 134584728563487444
+      ww2_planes_1: -8473428115014461382
+      ww2_planes_10: 4359386773953873024
+      ww2_planes_11: 1109384701703912234
+      ww2_planes_12: -6674064734925439794
+      ww2_planes_13: 3684193451650193616
+      ww2_planes_14: 4395054842664286308
+      ww2_planes_15: -4521025457713913462
+      ww2_planes_16: -8483722814658747897
+      ww2_planes_17: 681838565462743822
+      ww2_planes_18: 5324977125587042772
+      ww2_planes_19: 4863860108633720865
+      ww2_planes_2: -2137366557833007937
+      ww2_planes_20: 7876273057366279898
+      ww2_planes_21: -4736441551907555635
+      ww2_planes_22: -2177698152467165191
+      ww2_planes_23: 7475813089047379303
+      ww2_planes_24: -4408099163899183352
+      ww2_planes_25: -1704426947757001329
+      ww2_planes_26: -1754649628974997404
+      ww2_planes_3: 8998115727613647034
+      ww2_planes_4: -4629489943852985644
+      ww2_planes_5: -6343978427242140506
+      ww2_planes_6: 2715724551164746362
+      ww2_planes_7: 4687704444157295571
+      ww2_planes_8: -1171427021102712984
+      ww2_planes_9: -1972437438240559232
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

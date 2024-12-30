@@ -12,7 +12,8 @@ public class ExplosionTrigger : MonoBehaviour {
     }
     void OnDestroy() {
         // explosion.Play();
-        StartCoroutine(camShake.Shake(.15f, .4f));
+        // StartCoroutine(camShake.Shake(.15f, .4f));
+        camShake.triggerON();
     }
     void Update () {
         

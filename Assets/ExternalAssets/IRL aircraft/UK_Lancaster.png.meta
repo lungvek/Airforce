@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      UK_Lancaster_0: 7482187575329398850
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

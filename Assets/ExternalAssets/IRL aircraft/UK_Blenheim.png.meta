@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      UK_Blenheim_0: 1752648709424827385
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

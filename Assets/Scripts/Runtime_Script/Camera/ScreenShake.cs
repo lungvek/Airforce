@@ -10,11 +10,18 @@ public class ScreenShake : MonoBehaviour
     {
         // Save the initial position of the object (e.g., camera)
         originalPosition = transform.localPosition;
+        
+    //     pos = transform.position;
     }
 
+    // void shake(float dx, float dy){
+    //     pos.x *= dx;
+    //     pos.y *= dy;
+    //     transformation.position 
+    // }
     public void TriggerShake()
     {
-        StopAllCoroutines(); // Stop any existing shakes
+        // StopAllCoroutines(); // Stop any existing shakes
         StartCoroutine(ShakeCoroutine());
         Debug.Log("Shake called");
     }
@@ -24,17 +31,19 @@ public class ScreenShake : MonoBehaviour
         for (int i = 0; i < shakeDuration; i++)
         {
             // Generate random offsets for X and Y within the range
-            float offsetX = Random.Range(-shakeMagnitude, -0.8f);
-            float offsetY = Random.Range(-shakeMagnitude, -0.8f);
+            float offsetX = Random.Range(-shakeMagnitude, shakeMagnitude);
+            float offsetY = Random.Range(-shakeMagnitude, shakeMagnitude);
 
             // Apply the offset
             transform.localPosition = originalPosition + new Vector3(offsetX, offsetY, 0);
 
             // Wait for the next frame
             yield return null;
+            yield return null;
         }
 
         // Reset position to the original
-        transform.localPosition = originalPosition;
+      transform.localPosition = originalPosition;
     }
 }
+
